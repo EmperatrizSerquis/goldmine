@@ -4,7 +4,7 @@ class Store_basket extends Trongate {
 	function display() {
 
 		$this->module('store_items');
-		$picture_settings = $this->store_items
+		$picture_settings = $this->store_items;
 
 		$sql = 'SELECT
 							store_items.item_title,
